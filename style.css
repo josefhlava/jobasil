@@ -60,4 +60,69 @@ p a {
     text-decoration: none;
     color: #4E9C68;
     font-size: 1.5rem;
+    padding: 5px 10px;
+}
+
+p a:hover {
+    color: white;
+    background-color: #4E9C68;
+    border-radius: 3px;
+}
+
+.banner {
+    background-image: url(./resources/rob-pumphrey-_f26vO7Cg_g-unsplash.jpg);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-box {
+    align-self: center;
+    padding: 50px 10%;
+    background-color: rgb(255, 255, 255, .3);
+    border-radius: 10px;
+}
+
+.intro-text h2 {
+    color: black;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+}
+
+#products {
+
+}
+
+.section-heading {
+    height: 100px;
+    width: 100%;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product {
+    margin: 30px 40px;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product h4 {
+    font-size: 1.5rem;
+    margin: 15px auto;
 }
