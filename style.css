@@ -56,20 +56,20 @@ nav {
     color: aqua;
 }
 
-p a {
+nav p a {
     text-decoration: none;
     color: #4E9C68;
     font-size: 1.5rem;
     padding: 5px 10px;
 }
 
-p a:hover {
+nav p a:hover {
     color: white;
     background-color: #4E9C68;
     border-radius: 3px;
 }
 
-.banner {
+#banner {
     background-image: url(./resources/rob-pumphrey-_f26vO7Cg_g-unsplash.jpg);
     height: 500px;
     width: 100%;
@@ -90,10 +90,6 @@ p a:hover {
     font-size: 2rem;
 }
 
-#products {
-
-}
-
 .section-heading {
     height: 100px;
     width: 100%;
@@ -104,7 +100,7 @@ p a:hover {
     justify-content: center;
 }
 
-.products-box {
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -125,4 +121,88 @@ p a:hover {
 .product h4 {
     font-size: 1.5rem;
     margin: 15px auto;
+}
+
+#team {
+    background-image: url(./resources/markus-spiske-ngP0x8HuPVM-unsplash.jpg);
+    background-position: center;
+    background-size: 150%;
+    padding-bottom: 30px;
+}
+
+.member {
+    margin: 10px 10px;
+    padding: 20px 10px;
+    background-color: rgb(255, 255, 255, .3);
+    border-radius: 5px;
+    color: white;
+}
+
+.member img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.member h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.team-heading {
+    color: white;
+    height: 100px;
+    width: 100%;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-form {
+    text-align: left;
+    line-height: 30px;
+}
+
+.contact-form h2 {
+    font-size: 1.6rem;
+}
+
+.footer-menu {
+    line-height: 40px;
+}
+
+.footer-menu p a {
+    text-decoration: none;
+    color: #4E9C68;
+    font-size: 1.4rem;
+}
+
+.footer-menu p a:hover {
+    color: #7CBB92;
+}
+
+.form-input {
+    height: 30px;
+    border: 1px solid #4E9C68;
+    border-radius: 3px;
+
+}
+
+.form-button {
+    background-color: #4E9C68;
+    color: white;
+    height: 30px;
+    box-shadow: none;
+    margin-left: 10px;
+    border-radius: 3px;
 }

@@ -15,14 +15,14 @@
         </div>
         <div class="menu">
             <nav>
-                <p><a href="#">About</a></p>
-                <p><a href="#">Our team</a></p>
-                <p><a href="#">Contact</a></p>
+                <p><a href="#banner">About</a></p>
+                <p><a href="#products">Products</a></p>
+                <p><a href="#team">Our Team</a></p>
             </nav>
         </div>
     </header>
     <main>
-        <section class="banner">
+        <section id="banner">
             <div class="intro-box">
                 <div class="intro-text">
                     <h2>We sell basil!</h2>
@@ -34,7 +34,7 @@
             <div class="section-heading">
                 <h3>Our Products</h3>
             </div>
-            <div class="products-box">
+            <div class="container">
                 <div class="product">
                     <img src="./resources/sweet_basil.jpeg" alt="Sweet Basil">
                     <h4>Sweet Basil</h4>
@@ -57,27 +57,27 @@
                 </div>
                 <div class="product">
                     <img src="./resources/basil-greek.jpeg" alt="Greek Basil">
-                    <h4>Greel Basil</h4>
+                    <h4>Greek Basil</h4>
                     <p>Price: $6/pot</p>
                 </div>
             </div>
         </section>
-        <section class="team">
-            <div class="section-heading">
-
+        <section id="team">
+            <div class="team-heading">
+                <h3>The Team</h3>
             </div>
             <div class="container">
-                <div class="player">
+                <div class="member">
                     <img src="./resources/andre-sebastian-C2Nf5iPOnz0-unsplash.jpg" alt="Jo Basil">
                     <h3 class="name-headline">Jo Basil</h3>
                     <p class="job-title">Founder and CEO</p>
                 </div>
-                <div class="player">
+                <div class="member">
                     <img src="./resources/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="Anna Garden">
                     <h3 class="name-headline">Anna Garden</h3>
                     <p class="job-title">Head of Marketing</p>
                 </div>
-                <div class="player">
+                <div class="member">
                     <img src="./resources/zoe-fernandez--zqoE7jnQgw-unsplash.jpg" alt="Emma Plant">
                     <h3 class="name-headline">Emma Plant</h3>
                     <p class="job-title">Head of Product</p>
@@ -87,10 +87,17 @@
     </main>
     <footer>
         <div class="contact-form">
-            <form action=""></form>
+            <form action="#">
+                <h2>Subscribe!</h2>
+                <p>Get updates about basil! Join our fanbase!</p>
+                <input type="email" class="form-input" value="@">
+                <Button type="submit" class="form-button">Submit</Button>
+            </form>
         </div>
         <div class="footer-menu">
-
+            <p><a href="#banner">About</a></p>
+            <p><a href="#products">Products</a></p>
+            <p><a href="#team">Our Team</a></p>
         </div>
     </footer>
 </body>
